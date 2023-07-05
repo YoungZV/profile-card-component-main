@@ -1,0 +1,137 @@
+:root {
+    /* ## Colors 
+
+    ### Primary  */
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+
+    /* ### Neutral */
+
+    --Darkgray: hsl(0, 0%, 59%);
+    --White: hsl(0, 0%, 100%);
+
+
+    /* ##Font */
+
+    --font-weigth-400: 400;
+    --font-weight-700: 700;
+    --font-size: 1.125rem;
+    /* name and stats */
+}
+
+body {
+    /* name and stats */
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: var(--Darkcyan);
+}
+
+.pattern-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -30%);
+}
+
+.pattern-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 30%);
+}
+
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.main {
+    background: var(--White);
+    border-radius: 1rem 1rem 1rem;
+    z-index: 1;
+
+}
+
+/* Article */
+
+.image img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+/* Article__2 */
+
+.article__2 {
+    position: relative;
+    padding: 2rem 1.5rem;
+}
+
+.wrapper {
+    text-align: center;
+    width: 80%;
+    margin: 1.5rem auto 0 auto;
+}
+
+
+.fullname {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-700);
+    color: var(--Verydarkdesaturatedblue);
+}
+
+span {
+    font-weight: var(--font-weigth-400);
+    color: var(--Darkgrayishblue);
+
+}
+
+.location {
+    font-weight: var(--font-weigth-400);
+    font-size: 1rem;
+    color: var(--Darkgray);
+    padding-top: 0.5rem;
+}
+
+.avatar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    border: 0.25rem solid var(--White)
+}
+
+/* ARTICLE__3 */
+.article__3 {
+    padding: 1.5rem;
+    border-top: 0.1rem solid var(--Darkgray);
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+}
+
+.number {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-700);
+    color: var(--Verydarkdesaturatedblue);
+
+}
+
+.name {
+    font-size: 0.75rem;
+    font-weight: var(--font-weigth-400);
+    color: var(--Darkgray);
+
+}
